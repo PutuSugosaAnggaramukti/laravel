@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Home_Controller;
 use App\Http\Controllers\Ibadah_Controller;
 use App\Http\Controllers\Validasi_Controller;
+use App\Http\Controllers\Admin_Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,6 @@ Route::get('/ibadah',[Ibadah_Controller::class, 'index']);
 
 //HALAMAN VALIDASI
 Route::get('/validasi',[Validasi_Controller::class, 'index']);
+
+//HALAMAN ADMIN
+Route::get('/halamanadmin',[Admin_Controller::class, 'index']);

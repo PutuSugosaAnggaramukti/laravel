@@ -72,6 +72,8 @@
                     <th>Tanggal</th>
                     <th>Jam</th>
                     <th>Pendeta</th>
+                    <th>Status</th>
+                    <th>Download Surat</th>
                 </tr>
                </table>
             </div>
